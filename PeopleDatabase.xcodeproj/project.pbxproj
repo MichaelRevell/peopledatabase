@@ -10,6 +10,7 @@
 		41A71E3417FD4D570030816D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A71E3317FD4D570030816D /* Foundation.framework */; };
 		41A71E3717FD4D570030816D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A71E3617FD4D570030816D /* main.m */; };
 		41A71E3B17FD4D570030816D /* PeopleDatabase.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41A71E3A17FD4D570030816D /* PeopleDatabase.1 */; };
+		41A71E4317FD4DBC0030816D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A71E4217FD4DBC0030816D /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		41A71E3617FD4D570030816D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41A71E3917FD4D570030816D /* PeopleDatabase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeopleDatabase-Prefix.pch"; sourceTree = "<group>"; };
 		41A71E3A17FD4D570030816D /* PeopleDatabase.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PeopleDatabase.1; sourceTree = "<group>"; };
+		41A71E4117FD4DBC0030816D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		41A71E4217FD4DBC0030816D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		41A71E2717FD4D570030816D = {
 			isa = PBXGroup;
 			children = (
+				41A71E4117FD4DBC0030816D /* Person.h */,
+				41A71E4217FD4DBC0030816D /* Person.m */,
 				41A71E3517FD4D570030816D /* PeopleDatabase */,
 				41A71E3217FD4D570030816D /* Frameworks */,
 				41A71E3117FD4D570030816D /* Products */,
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41A71E4317FD4DBC0030816D /* Person.m in Sources */,
 				41A71E3717FD4D570030816D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
